@@ -9,3 +9,7 @@
 ## Database technology utilized
 
 <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white">
+
+## NoSQL Data Model Diagram
+
+<img src="assets/diagrams/osiris_mongodb.drawio.svg" align="center">
