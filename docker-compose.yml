@@ -1,0 +1,12 @@
+version: '3'
+services:
+  mongodb:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: osiris
+    volumes:
+      - ./db/collections:/docker-entrypoint-initdb.d
